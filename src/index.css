@@ -5,9 +5,103 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1{
+  text-align: center;
+  background-color: aqua;
+  margin: 0 auto;
+  padding: 2rem 0.5rem;
+}
+
+.formulario-container{
+  font-size: 1.3rem;
+  color: #ffffff;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.row{
+  margin: 1rem 0;
+}
+
+.input{
+  margin: 1rem auto;
+  font-size: 1rem;
+  background-color: #ffffff;
+  padding: 0.3rem 2rem;
+  border-style: none;
+  border-radius: 8px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .input{
+    margin-left: 2rem;
+  }
+}
+
+.select{
+  margin: 1rem auto;
+  font-size: 1rem;
+  background-color: #ffffff;
+  padding: 0.3rem 2rem;
+  border-style: none;
+  border-radius: 8px;
+  display: block;
+  width: 80%;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .select{
+    margin-left: 2rem;
+    display: inline;
+    width: auto;
+  }
+}
+
+.btn{
+  font-size: 1rem;
+  background-color: #ffffff;
+  padding: 0.3rem 2rem;
+  border-style: none;
+  border-radius: 8px;
+}
+
+.error{
+  display: inline-block;
+  background-color: red;
+  color: #ffffff;
+  padding: 0.5rem 2rem;
+}
+
+.cotizacion{
+  border: 1px solid aqua;
+  display: inline-block;
+  width: 80%;
+}
+
+.site-footer{
+  background-color: #000000;
+  color: #ffffff;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.site-footer p{
+  margin: 0;
+}
+
+.site-footer p span{
+  font-family: 'Orbitron', sans-serif;
+}
+
+.fw-bold{
+  font-weight: 700;
 }
